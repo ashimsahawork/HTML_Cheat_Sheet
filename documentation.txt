@@ -1,0 +1,68 @@
+# HTML Crash Course for Beginners
+
+# Before we begin:
+    - This is for beginners.
+    - We will focus on HTML5 only.
+
+# What is HTML?
+    - Stands for Hyper Text Markup Language.
+    - Not a programming language.
+    - Markup language for creating webpages/documents.
+    - This is the building block of Web.
+
+## Recommended Code Editors
+    - Visual Studio Code
+    - Sublime Text
+    - Atom.io 
+    - Notepad++ (Windows)
+    - TextMate (Mac)
+
+## Recommended Browsers
+    - Google Chrome
+    - Mozilla Firefox
+    - Microsoft Edge
+
+# Important points:
+    - Does not need a server/hosting company to write and test HTML.
+    - Files must end with the .html extension.
+    - Runs in web browser (Chrome, FireFox, etc.)
+    - index.html is the root/home page of a website.
+        Example:
+        http//www.example.com - Loads the index.html file
+        http//www.example.com/about.html - Loads the about.html file
+
+# HTML Tag:
+    - Element names are surrounded by angle brackets. | Example: <div>, <span>, etc.
+    - Tags normally come in pairs (Start tag and end tag). | Example: <h1>Welcome</h1>
+    - End tag is usually the same but with a forward slash. | Example: </div>, </h1>, etc.
+    - Some tags close themselves. | Example: <br>, <hr>
+
+# HTML page structure:
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        
+    </body>
+    </html>
+
+# Inline vs Block level element:
+    - Inline Element:
+        - Do not start on a new line.
+        - Take only the necessary width.
+        Example: <span>, <img>, <a>, etc.
+    - Block Element:
+        - Start on a new line.
+        - Take full width available.
+        Example: <div>, <h1> to <h6>, <p>, <form>, etc.
+
+# Tag Attribute:
+    - All tag can have attribute.
+    - Provide information about an element.
+    - Placed with in the start tag.
+    - key/value pair. (Example: id="Some Id")
