@@ -63,6 +63,6 @@
 
 # Tag Attribute:
     - All tag can have attribute.
-    - Provide information about an element.
+    - it Provides information about an element.
     - Placed with in the start tag.
     - key/value pair. (Example: id="Some Id")
